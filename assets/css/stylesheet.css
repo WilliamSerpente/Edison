@@ -113,6 +113,12 @@ i{
     font-size: 20px;
     font-weight: bolder;
 }
+iframe{
+    float: right;
+    padding-right: 10%;
+    padding-top: 7%;
+
+}
 
 /** Configuracion Especifica DIV */
 
@@ -143,4 +149,62 @@ i{
     padding-right: 4%;
     padding-left: 4%;
     padding-bottom: 4%;
+}
+
+/** Formularios */
+form{
+    font-size: 20px;
+    
+}
+label{
+    margin-left: 5%;
+    font-weight: bold;
+}
+input[type=text]{
+
+    width: 30%;
+    height: 25px;
+    margin-left: 5%;
+    margin-bottom: 2%;
+    padding: 5px 5px 5px 5px
+}
+input[type=text]:focus {
+    border: 2px solid black;
+  }
+  input[type=email]:focus {
+    border: 2px solid black;
+  }
+  input[type=textarea]:focus {
+    border: 2px solid black;
+  }
+
+  input[type=email]{
+
+    width: 30%;
+    height: 25px;
+    margin-left: 5%;
+    margin-bottom: 2%;
+    padding: 5px 5px 5px 5px
+}
+textarea{
+    width: 30%;
+    margin-left: 5%;
+    margin-bottom: 2%;
+    padding: 5px 5px 5px 5px
+}
+input[type=submit]{
+
+    width: 30%;
+    margin: 5%;
+    padding: 5px 5px 5px 5px;
+    background-color:#FFCA1A;
+    color: black;
+
+}
+
+input[type=submit]:hover{
+
+  
+    background-color:#FFE880;
+
 }
